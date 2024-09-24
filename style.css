@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: pink;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.main {
+
+    text-align: center;
+    
+    /* transition: transform 0.5s ease;*/ /*Smooth transition */
+}
+button {
+    width: 150px;
+    height: 150px;
+    margin: 4px;
+    font-size: 60px;
+    font-weight: bold;
+    color: #b1117c;
+    text-shadow: 2px 2px 10px #000000;
+    box-shadow: 2px 2px 10px 2px #000000;
+}
+.a {
+    background-image: url('DrumkitInstruments/crash.png');
+}
+.s {
+    background-image: url('DrumkitInstruments/kick.png');
+}
+.d {
+    background-image: url('DrumkitInstruments/snare.png');
+}
+.f {
+    background-image: url('DrumkitInstruments/tom1.png');
+}
+.g {
+    background-image: url('DrumkitInstruments/tom2.png');
+}
+.h {
+    background-image: url('DrumkitInstruments/tom3.png');
+}
+.j {
+    background-image: url('DrumkitInstruments/tom4.png');
+}
+
+/* Media query for rotating elements on smaller screens */
+/* @media (max-width: 714px) {
+    .main {
+        transform: rotate(90deg);
+        width: 100vh;
+    }
+    img{
+        width: 100px;
+        height: 100px;
+    }
+    button {
+        width: 100px;
+        height: 100px;
+        font-size: 30px;
+    }
+} */
+
+@media (max-width: 714px) {
+    
+    img{
+        width: 100px;
+        height: 100px;
+    }
+    button {
+        width: 100px;
+        height: 100px;
+        font-size: 30px;
+    }
+}
